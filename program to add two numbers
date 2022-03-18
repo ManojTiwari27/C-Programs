@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void add()
+{
+    int x,y;                                //Variable declartion
+    printf("Enter Values of x And y\n");
+    scanf("%d%d",&x,&y);
+    printf("Addition of x and y is %d\n",x+y);
+}
+void main()
+{
+    add();
+    getch();      // Function declaration
+}
