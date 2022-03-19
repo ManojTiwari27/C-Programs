@@ -1,0 +1,17 @@
+#include<stdio.h>
+void Factorial(int n)
+{
+    int i,r=1;
+    for(i=1;i<=n;i++)
+    {
+        r = r*i;
+    }
+      printf("Factoial of %d is %d\n",n,r);
+}
+void main()
+{
+    int n;
+    printf("Enter a number  ");
+    scanf("%d",&n);
+    Factorial(n);
+}
