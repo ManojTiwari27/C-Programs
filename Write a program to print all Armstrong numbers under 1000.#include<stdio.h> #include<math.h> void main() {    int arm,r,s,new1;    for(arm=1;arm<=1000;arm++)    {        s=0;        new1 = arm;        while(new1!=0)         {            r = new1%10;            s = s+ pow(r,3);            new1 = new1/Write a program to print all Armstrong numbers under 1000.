@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+   int arm,r,s,new1;
+   for(arm=1;arm<=1000;arm++)
+   {
+       s=0;
+       new1 = arm;
+       while(new1!=0)
+        {
+           r = new1%10;
+           s = s+ pow(r,3);
+           new1 = new1/10;
+
+        }
+        if(s==arm)
+            printf("%d\n",arm);
+   }
+}
