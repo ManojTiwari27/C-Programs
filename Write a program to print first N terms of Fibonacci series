@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+    int x=0,y=1,z,n,i;
+    printf("Enter a number where you want to stop Fibonacci series");
+    scanf("%d",&n);
+    printf("%d\n%d\n",x,y);
+    for(i=0;i<=n;i++)
+    {
+        z=x+y;
+        printf("%d\n",z);
+        x = y;
+        y = z;
+
+    }
+}
